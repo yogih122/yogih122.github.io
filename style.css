@@ -49,9 +49,9 @@ nav.black {
 }
 
 nav ul li a.active {
-	border: 2px solid;
+	border: 2px solid red;
 	border-radius: 10px;
-	color: white;
+	color: black;
 }
 
 section.sec1 {
