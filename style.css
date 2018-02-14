@@ -1,0 +1,107 @@
+body {
+	background: url(img/12.jpg);
+	margin: 0em;
+	padding: 0em;
+	font-family: Futura Md Bt;
+}
+
+nav.black {
+	background: rgba(0,0,0,0.8);
+	height: 100px;
+	padding: 10px 100px;
+}
+
+nav .logo {
+	padding: 22px 20px;
+	height: 100px;
+	float: left;
+	font-size: 24px;
+	transition: .3s;
+}
+
+nav.black .logo {
+	color: #fff;	
+}
+
+nav ul {
+	list-style: none;
+	float: right;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+nav ul li {
+	list-style: none;
+}
+
+nav ul li a {
+	line-height: 80px;
+	color: navy;
+	padding: 10px 10px;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: 0.3;
+}
+
+nav.black {
+	color: #fff;
+}
+
+nav ul li a.active {
+	border: 2px solid;
+	border-radius: 10px;
+	color: white;
+}
+
+section.sec1 {
+	width: 100%;
+	height: 100vh;
+	background: url(img/mantap.jpg) 50% 50%;
+	background-size: cover;
+	background-position: center;
+}
+
+.content {
+	margin-top: 80px;
+}
+
+.content h1 {
+	font-size: 30px;
+	padding-left: 16cm;
+	padding-right: 16cm;
+	text-align: center;
+}
+
+.content p {
+	width: 900px;
+	margin: 30px auto;
+	text-decoration: hidden;
+	text-align: justify;
+	font-size: 20px;
+	line-height: 20px;	
+}
+
+.content img {
+	position: center;
+	margin-left: 7cm;
+	margin-right: 7cm;
+}
+
+.content button {
+	color: #000000;
+	background: white;
+	margin-left: 10cm;
+	margin-right: 15cm;
+	margin-bottom: 1px;
+	border: 2px solid #081182;
+	border-radius: 10px;
+	text-decoration: none;
+	text-align: left;
+}
+
+.footer {
+	margin-top: 50px;
+	color: #000000;
+	text-align: center;
+}

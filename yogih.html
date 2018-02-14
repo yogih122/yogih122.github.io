@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Go-Blog</title>
+	<link href="style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+	<div>
+		<nav>
+			<div class="logo">yoGih</div>
+			<ul>
+				<li><a href="./index.html">Home</a></li>
+				<li><a href="./aboutme.html" target="_blank">About Me</a></li>
+				<li><a href="#">School</a></li>
+				<li><a href="#">Hobbies</a></li>
+				<li><a class="active" href="https://www.instagram.com/yogih_/" target="_blank">Contact</a></li>
+			</ul>
+		<section class="sec1"></section>
+		<section class="content">
+			<h1 id="Tentangaku">About me</h1>
+				<p>Sekilas saja. Aku adalah seorang bujang yang terlahir sekitar 17 tahun lalu jika dihitung sejak bulan Juli tahun ini. Nama ku Yogi Hermawan, nama tersebut juga diberikan sekitar 17 tahun lalu, sekitar tanggal 22 Juli. Atau mungkin lebih, karena memberikan nama bukan hal yang mesti dilakukan sepreti menjawab soal Lomba Cepat Tepat.</p>
+			<h1 id="School">School</h1>
+				<img src="img/ww.jpg" width="800px" heigh="600px">
+				<p>Saat ini saya bersekolah di sekolah yang cukup ternama di Bogor. <strong>SMK-SMAK Bogor</strong>. Orang-orang biasa menyebutnya SMAKBO. Begitu namanya sekarang. Tapi dulu tidak seperti itu, ketika <em>Herman Busser</em> pertama kali menjadi kepala sekolah pada tanggal 1 September 1950 namanya adalah <strong>Analysten Cursus</strong>. Sesuai dengan namanya, SMAKBO ini adalah sekolah analisis kimia berjangka waktu 4 tahun. Kehidupan ku mulai merumit ketika mulai berkecimpung dengan dunia kimia . Seru sekaligus menegangkan. <br /><button><a href="http://www.smakbo.sch.id/sejarah/" target="_blank">Baca Selengkapnya...</a></button> </p>
+			<h1 id="Hobbies">Hobbies</h1>
+				<p>Hobiku sendiri banyak, tapi yang paling aku gemari adalah bermain game. Mulai dari game FPS, Racing, Online Game, Adventure, Horror, dan banyak lagi. <br /> Selain itu bermain game saya juga hobi bermain basket.
+				</p>
+				<img src="img/aa.jpg" width="800px" height="600px">
+		</section>
+		</nav>
+	</div>	
+	<script type="text/javascript">
+		//menu toggle button
+
+			$(document).ready(function() {
+				$(".menu-icon").on("click", function() {
+					$("nav ul").toggleClass("showing");
+				});
+
+			});
+
+		//scrolling Effect
+
+
+		$(window).on("scroll", function() {
+			if($(window).scrollTop()) {
+				$('nav').addClass('black');
+			}
+			else {
+				$('nav').removeClass('black');
+			})
+		})
+	</script>
+	<footer class="footer">Copyright &copy; 2018 yoGih.github.io
+	</footer>
+
+</body>
+</html>
